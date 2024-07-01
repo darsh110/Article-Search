@@ -8,6 +8,11 @@ body{
     position: relative;
 
 }
+/* global Css*/
+.obj-width{
+    max-width: 1200px;
+    margin: auto;
+}
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -22,7 +27,7 @@ body{
     text-decoration: 2rem;
     font-weight: 800;
     font-size: 2.1rem;
-    margin-left: 3px;
+    
 }
 #search-input{
     max-width: 400px;
@@ -41,5 +46,41 @@ body{
     cursor: pointer;
     border-radius: 5px;
     margin-left: 5px;
-    margin-right: 4px;
+  
 }
+
+#main-cls{
+    padding: 3rem 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    
+}
+
+.bolck-card{
+    width: 280px;
+    border: 1px solid #2d4c50;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.bolck-card img{
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+.bolck-card hover{
+    box-shadow: 4px 4px 10px rgba(0,0 0green, 0.1);
+}
+.bolck-card h2{
+    color: black;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+.bolck-card p{
+    font-size: 1.2rem;
+    padding-top: 0.7rem;
+}
+@media(max-width:500px)
